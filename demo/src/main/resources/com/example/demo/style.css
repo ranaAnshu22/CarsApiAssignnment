@@ -1,0 +1,40 @@
+.anchor-pane {
+    -fx-background-image: url("carssbgg.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.text {
+    -fx-fill: white;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 5px;
+}
+
+.text-field {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.anchor-pane .text {
+    -fx-fill: red;
+}
+
+.anchor-pane .button {
+    -fx-background-color: white;
+    -fx-text-fill: white;
+}
+
+.anchor-pane .text-field {
+    -fx-border-color: black;
+}
